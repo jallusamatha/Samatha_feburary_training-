@@ -1,0 +1,15 @@
+Student_name=input("enter the name:")
+Age=int(input("enter the age:"))
+Percentage=float(input("enter the percentage:"))
+Family_income=float(input("enter the total family income:"))
+Area=bool(input("Do you live in rural area?(Yes/No):"))
+print("\n Student Details")
+print(f"Name        :{Student_name}")
+print(f"Age         :{Age}")
+print(f"Percentage  :{Percentage}")
+print(f"income      :{Family_income}")
+print(f"Ruralarea   :{Area}")
+if(Percentage>=85 and Family_income<=300000) or Percentage>=90:
+    print("Eligible for scholarship")
+else:
+    print("Not Eligible")
